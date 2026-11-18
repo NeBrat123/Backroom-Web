@@ -1,0 +1,668 @@
+{
+    "0": {
+        "name": "The Lobby",
+        "class": 1,
+        "desc": "Mê cung vô tận của những căn phòng phân nhánh ngẫu nhiên với giấy dán tường màu vàng đơn sắc, thảm ẩm ướt bốc mùi mốc và tiếng vo ve chói tai của đèn huỳnh quang.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-0/level0.jpg",
+        "phenomena": ["Tiếng vo ve của đèn huỳnh quang làm điếc tai[cite: 6]", "Không gian phi tuyến tính khiến bạn đi vòng tròn[cite: 6]", "Cảm giác cô lập dẫn đến hoang tưởng[cite: 6]"],
+        "items": [],
+        "entities": ["Hầu như không có, sự cô lập là kẻ thù chính[cite: 6]"]
+    },
+    "0.1": {
+        "name": "Danger Zone",
+        "class": 2,
+        "desc": "Một phiên bản lỗi và hỗn loạn của Level 0. Các bức tường giấy dán tường màu vàng bị rách nát, cấu trúc phòng bị lỗi (glitch) giống như một trò chơi điện tử bị hỏng.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-0-1/level0-1.jpg",
+        "phenomena": ["Cấu trúc không gian đột ngột thay đổi hình dạng[cite: 6]", "Tiếng vo ve của đèn huỳnh quang bị biến dạng âm thanh[cite: 6]", "Các điểm mù (nơi kết cấu hình ảnh bị vỡ nát)[cite: 6]"],
+        "items": [],
+        "entities": ["Hound[cite: 6]", "Faceling (Bị lỗi hình ảnh)[cite: 6]"]
+    },
+    "0.2": {
+        "name": "Remodeled Mess",
+        "class": 2,
+        "desc": "Một phiên bản Level 0 cực kỳ lộn xộn, bị đập phá nghiêm trọng, giấy dán tường bong tróc, sàn đầy mảnh vỡ thủy tinh và gỗ.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-0-2/level0-2.jpg",
+        "phenomena": ["Tiếng đập phá vang dội từ xa[cite: 6]", "Cấu trúc phòng bị bóp méo hình học[cite: 6]"],
+        "items": ["Gỗ vụn[cite: 6]", "Đinh gỉ[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Faceling[cite: 6]"]
+    },
+    "1": {
+        "name": "Habitable Zone",
+        "class": 1,
+        "desc": "Kho hàng bê tông rộng lớn, sàn phủ sương mù, có chứa các thùng tiếp tế.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-1/level1.jpg",
+        "phenomena": ["Đèn huỳnh quang đột ngột chớp tắt[cite: 6]", "Sương mù ngưng tụ[cite: 6]", "Tiếng máy móc vang vọng vô hướng[cite: 6]"],
+        "items": ["Almond Water[cite: 6]", "Thùng tiếp tế M.E.G. (đồ ăn đóng hộp)[cite: 6]", "Phụ kiện cơ khí[cite: 6]"],
+        "entities": ["Adult Faceling[cite: 6]", "Hound[cite: 6]", "Smiler[cite: 6]", "Duller[cite: 6]"]
+    },
+    "1.1": {
+        "name": "The Corridors",
+        "class": 1,
+        "desc": "Một tập hợp các hành lang hẹp bằng gạch bê tông, không có cửa sổ và kéo dài vô tận. Cấu trúc khá giống Level 1 nhưng chật chội và ngột ngạt hơn nhiều.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-1-1/level1-1.jpg",
+        "phenomena": ["Tiếng bước chân giả vọng lại từ góc khuất[cite: 6]", "Ánh sáng nhấp nháy theo nhịp điệu[cite: 6]"],
+        "items": ["Almond Water (rất hiếm)[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Smiler[cite: 6]"]
+    },
+    "1.2": {
+        "name": "Concrete Garden",
+        "class": 2,
+        "desc": "Một khu vườn bê tông và khu phức hợp giống mê cung. Nơi này không chỉ đánh cắp ký ức mà còn đồng hóa cả danh tính của lữ khách.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-1-2/level1-2.jpg",
+        "phenomena": ["Đánh cắp ký ức và danh tính[cite: 6]", "Cơ thể lữ khách dần bị biến đổi (blossoming) nếu ở quá lâu trong mê cung[cite: 6]"],
+        "items": [],
+        "entities": []
+    },
+    "1.5": {
+        "name": "Inverted",
+        "class": 1,
+        "desc": "Một phiên bản của Level 1 nhưng trọng lực bị đảo ngược hoàn toàn. Bạn phải đi bộ trên trần nhà.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-1-5/level1-5.jpg",
+        "phenomena": ["Đồ vật rơi ngược lên bầu trời/sàn nhà[cite: 6]", "Mất phương hướng tiền đình[cite: 6]"],
+        "items": ["Almond Water (Trong thùng gỗ lộn ngược)[cite: 6]"],
+        "entities": ["Window[cite: 6]", "Smiler[cite: 6]", "Faceling[cite: 6]"]
+    },
+    "2": {
+        "name": "Pipe Dreams",
+        "class": 2,
+        "desc": "Đường hầm bảo trì dài hẹp với các đường ống khổng lồ bọc quanh tường, nhiệt độ có thể lên tới 43°C.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-2/level2.jpg",
+        "phenomena": ["Hơi nước nóng phun ra từ ống rỉ sét[cite: 6]", "Tiếng rít kim loại chói tai[cite: 6]", "Nhiệt độ đột ngột tăng vọt[cite: 6]"],
+        "items": ["Almond Water (nóng)[cite: 6]", "Dụng cụ cơ khí[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Smiler[cite: 6]", "Wretch[cite: 6]", "Crawler[cite: 6]", "Burden[cite: 6]"]
+    },
+    "2.1": {
+        "name": "Concrete Caverns",
+        "class": 3,
+        "desc": "Hệ thống hang động bê tông phân nhánh từ Level 2, cấu trúc ngẫu nhiên và nhiệt độ cực kỳ lạnh.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-2-1/level2-1.jpg",
+        "phenomena": ["Nước đóng băng rỏ xuống[cite: 6]", "Tiếng bước chân vang vọng khắp hang[cite: 6]"],
+        "items": ["Đồ hộp đông lạnh[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Wretch[cite: 6]"]
+    },
+    "2.2": {
+        "name": "Constant Buzz",
+        "class": 4,
+        "desc": "Một khu vực sửa chữa bảo trì sâu hơn của Level 2, bao quanh bởi các máy biến áp phát ra tiếng vo ve tần số cao gây nhức đầu. Nhiệt độ cực kỳ nóng.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-2-2/level2-2.jpg",
+        "phenomena": ["Tiếng vo ve gây choáng váng và chảy máu cam[cite: 6]", "Không khí nóng bức ngột ngạt[cite: 6]", "Ống dẫn chằng chịt bít bùng lối đi[cite: 6]"],
+        "items": ["Dụng cụ điện[cite: 6]", "Liquid Pain (trong một số ống bục vỡ)[cite: 6]"],
+        "entities": ["Smiler[cite: 6]", "Burden[cite: 6]", "Wretch[cite: 6]"]
+    },
+    "3": {
+        "name": "Electrical Station",
+        "class": 4,
+        "desc": "Trạm điện khổng lồ chằng chịt dây cáp, tiếng ồn máy móc ог điếc tai, rất nhiều thực thể.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-3/level3.jpg",
+        "phenomena": ["Tia lửa điện rớt xuống từ trần nhà[cite: 6]", "Tiếng ồn máy dập liên hồi[cite: 6]", "Hành lang tự khóa sập cửa[cite: 6]"],
+        "items": ["Firesalt (Hiếm)[cite: 6]", "Royal Rations[cite: 6]", "Squirt Gun[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Faceling[cite: 6]", "Skin-Stealer[cite: 6]", "Smiler[cite: 6]", "Wretch[cite: 6]", "Male Deathmoth[cite: 6]"]
+    },
+    "3.1": {
+        "name": "The Boiler Zone",
+        "class": 3,
+        "desc": "Khu vực tầng hầm phân nhánh từ Level 3. Một tổ hợp các nồi hơi công nghiệp khổng lồ rỉ sét, đường ống xả hơi nước và nhiệt độ cực kỳ nóng, có thể gây bỏng rát.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-3-1/level3-1.jpg",
+        "phenomena": ["Hơi nước nóng xịt ra từ các đường ống hỏng[cite: 6]", "Nhiệt độ thay đổi đột ngột từ 30°C đến hơn 60°C[cite: 6]", "Tiếng kim loại giãn nở do nhiệt[cite: 6]"],
+        "items": ["Firesalt[cite: 6]", "Linh kiện nồi hơi[cite: 6]", "Almond Water (thường bị đun nóng)[cite: 6]"],
+        "entities": ["Smiler[cite: 6]", "Hound[cite: 6]", "Wretch (Chịu nhiệt)[cite: 6]"]
+    },
+    "4": {
+        "name": "Abandoned Office",
+        "class": 1,
+        "desc": "Một khu phức hợp văn phòng trống rỗng, tương đối an toàn với nguồn cung cấp dồi dào.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-4/level4.jpg",
+        "phenomena": ["Âm thanh máy tính tự khởi động[cite: 6]", "Tiếng gõ phím lạch cạch từ căn phòng trống[cite: 6]"],
+        "items": ["Almond Water (Rất nhiều)[cite: 6]", "Nước tăng lực[cite: 6]", "Tài liệu bị bỏ lại[cite: 6]"],
+        "entities": ["Hound (Rất hiếm)[cite: 6]", "Duller (Rất hiếm)[cite: 6]"]
+    },
+    "4.1": {
+        "name": "Whispering Halls",
+        "class": 2,
+        "desc": "Khu vực tăm tối của Level 4, trông giống như một văn phòng bị thiêu rụi một nửa. Tiếng thì thầm vang lên liên tục trong đầu lữ khách.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-4-1/level4-1.jpg",
+        "phenomena": ["Tiếng thì thầm thao túng tâm lý[cite: 6]", "Trần nhà rỉ xuống chất lỏng đen[cite: 6]"],
+        "items": ["Firesalt (Hiếm)[cite: 6]"],
+        "entities": ["Duller[cite: 6]", "Wretch[cite: 6]"]
+    },
+    "4.2": {
+        "name": "Parking Lot Of Fog",
+        "class": 0,
+        "desc": "Giống như một bãi đậu xe bỏ hoang với sương mù dày đặc và tầm nhìn rất thấp. Tường ốp gạch trắng xanh và có các đường ống trên trần nhà.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-4-2/level4-2.jpg",
+        "phenomena": ["Không có ánh sáng tự nhiên, ánh sáng phát ra từ trần nhà với hào quang màu lục, lam hoặc vàng[cite: 6]", "Bảng hiệu ghi chữ \"No Entry\"[cite: 6]"],
+        "items": [],
+        "entities": ["Chưa ghi nhận thực thể nào[cite: 6]"]
+    },
+    "4.3": {
+        "name": "Shattered Remains",
+        "class": 4,
+        "desc": "Một khu vực lỗi hình học phân nhánh từ Level 4, nơi kết cấu không gian bị phá vỡ, tường và sàn nhà trôi nổi giữa một vùng tối vô định (The Void).[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-4-3/level4-3.jpg",
+        "phenomena": ["Mảnh vỡ kiến trúc lơ lửng không trọng lực[cite: 6]", "Lỗi cấu trúc khiến việc bước hụt sẽ rơi xuống khoảng không vô tận[cite: 6]", "Bóng tối nuốt chửng ánh sáng đèn pin[cite: 6]"],
+        "items": ["Tài liệu M.E.G. rách nát[cite: 6]", "Nước đóng hộp (hiếm)[cite: 6]"],
+        "entities": ["Smiler[cite: 6]", "Skin-Stealer[cite: 6]", "Wretch[cite: 6]"]
+    },
+    "4.4": {
+        "name": "Crazed State",
+        "class": 4,
+        "desc": "Một không gian văn phòng bỏ hoang, đẫm máu với diện tích nhỏ hơn Level 4. Khách lữ hành khi bước vào sẽ bị lấp đầy bởi cơn khát máu tột độ, dẫn đến việc tấn công người khác hoặc tự hủy hoại bản thân.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-4-4/level4-4.jpg",
+        "phenomena": ["Cơn khát máu khiến con người hóa điên, tự cắn ngón tay hoặc đập đầu vào tường nếu không có ai xung quanh[cite: 6]", "Cửa sổ nhìn ra một vùng nước bất khả xâm phạm[cite: 6]"],
+        "items": ["Vật tư và xác chết giấu trong tủ khóa[cite: 6]"],
+        "entities": ["Những lữ khách hóa điên (Travellers in a crazed state)[cite: 6]"]
+    },
+    "5": {
+        "name": "Terror Hotel",
+        "class": 2,
+        "desc": "Một khách sạn cổ kính vô tận mang phong cách những năm 1920, hành lang ốp gỗ sang trọng.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-5/level5.jpg",
+        "phenomena": ["Tiếng nhạc Jazz văng vẳng từ xa[cite: 6]", "Cửa phòng khách sạn tự mở[cite: 6]", "Cảm giác bị theo dõi từ những bức tranh[cite: 6]"],
+        "items": ["Đồ ăn còn dùng được[cite: 6]", "Almond Water[cite: 6]", "Trang phục phong cách cũ[cite: 6]"],
+        "entities": ["Deathmoth (Đực và Cái)[cite: 6]", "Hound[cite: 6]", "Woodlin[cite: 6]"]
+    },
+    "5.1": {
+        "name": "The Boiler Room",
+        "class": 3,
+        "desc": "Khu vực phòng nồi hơi bên dưới Terror Hotel. Nơi này ngột ngạt, nóng bức và đầy rẫy các đường ống kim loại khổng lồ rỉ sét đan chéo nhau, tương đối giống Level 2 nhưng ẩm thấp hơn nhiều.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-5-1/level5-1.jpg",
+        "phenomena": ["Tiếng xả hơi nước điếc tai từ các van hỏng[cite: 6]", "Không khí đặc quánh mùi lưu huỳnh và than cháy[cite: 6]", "Nhiệt độ luôn ở mức đe dọa đến tính mạng nếu ở lại lâu[cite: 6]"],
+        "items": ["Than đá[cite: 6]", "Dụng cụ cơ khí hỏng[cite: 6]", "Liquid Pain (Trộn lẫn trong các vũng nước đọng)[cite: 6]"],
+        "entities": ["Smiler[cite: 6]", "Hound[cite: 6]", "Deathmoth (Kích thước lớn hơn bình thường)[cite: 6]"]
+    },
+    "5.2": {
+        "name": "The Casino",
+        "class": 2,
+        "desc": "Một sòng bạc xa hoa mang phong cách thập niên 1920 nằm bên trong Terror Hotel. Có vô số máy đánh bạc (slot machine), bàn Roulette và Blackjack nhưng không bao giờ có lối thoát rõ ràng.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-5-2/level5-2.jpg",
+        "phenomena": ["Nhạc Jazz và tiếng xèng rơi vang lên dù không có ai chơi[cite: 6]", "Máy đánh bạc tự động quay số[cite: 6]", "Cảm giác nghiện cờ bạc (Mind-altering)[cite: 6]"],
+        "items": ["Chip sòng bạc (Token)[cite: 6]", "Almond Water (Phục vụ trong ly rượu vang)[cite: 6]", "Thức ăn vặt tại quầy bar[cite: 6]"],
+        "entities": ["Faceling (Trong trang phục Dealer/Người chia bài)[cite: 6]", "Deathmoth (Đực)[cite: 6]"]
+    },
+    "6": {
+        "name": "Lights Out",
+        "class": 4,
+        "desc": "Không gian chìm trong bóng tối hoàn toàn, ánh sáng nhân tạo không thể xuyên qua. Ảo giác rất mạnh.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-6/level6.jpg",
+        "phenomena": ["Ảo giác thính giác cực mạnh[cite: 6]", "Mất định hướng không gian hoàn toàn[cite: 6]", "Tiếng thì thầm gọi tên thật của bạn[cite: 6]"],
+        "items": [],
+        "entities": ["Wretch[cite: 6]", "Smiler[cite: 6]"]
+    },
+    "6.1": {
+        "name": "The Snackrooms",
+        "class": 0,
+        "desc": "Một tổ hợp nhà hàng, quán bar và khu ăn uống khổng lồ. Tuyệt đối an toàn, thực phẩm dồi dào và tự động được làm đầy lại. Thiên đường của Lữ khách.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-6-1/level6-1.jpg",
+        "phenomena": ["Máy bán hàng tự động nhả đồ miễn phí[cite: 6]", "Mùi thức ăn nướng thơm phức[cite: 6]"],
+        "items": ["Almond Water[cite: 6]", "Thùng tiếp tế M.E.G.[cite: 6]", "Royal Rations[cite: 6]", "Nước tăng lực[cite: 6]"],
+        "entities": ["Faceling (Nhân viên quán, hoàn toàn thân thiện)[cite: 6]"]
+    },
+    "7": {
+        "name": "Thalassophobia",
+        "class": 4,
+        "desc": "Một đại dương vô tận ngập tràn nước lạnh lẽo, bên trên là một ngôi nhà nhỏ ngập nước.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-7/level7.jpg",
+        "phenomena": ["Sóng ngầm kéo bạn xuống[cite: 6]", "Không gian bên dưới mặt nước tối đen như mực[cite: 6]"],
+        "items": [],
+        "entities": ["The Thing on Level 7[cite: 6]"]
+    },
+    "7.1": {
+        "name": "The Bathyal Zone",
+        "class": 4,
+        "desc": "Một vùng nước sâu hơn, tăm tối hơn phân nhánh từ Level 7. Áp suất nước ở đây cực kỳ lớn, có thể nghiền nát lữ khách nếu không có thiết bị lặn chuyên dụng.",
+        "image": "",
+        "phenomena": ["Áp suất nước cực lớn", "Bóng tối tuyệt đối"],
+        "items": [],
+        "entities": ["Sinh vật biển biến dị phát quang", "Smiler (Phiên bản dưới nước)"]
+    },
+    "7.2": {
+        "name": "The Titanic",
+        "class": 2,
+        "desc": "Một bản sao của con tàu RMS Titanic chìm sâu dưới vùng nước của Level 7. Bên trong tàu có các túi khí cho phép lữ khách hít thở.",
+        "image": "",
+        "phenomena": ["Nội thất được giữ nguyên nhưng mục nát", "Túi khí ngẫu nhiên"],
+        "items": ["Almond Water"],
+        "entities": ["Faceling (Mặc trang phục đầu thế kỷ 20)"]
+    },
+    "8": {
+        "name": "Cave System",
+        "class": 5,
+        "desc": "Một hệ thống hang động đá ẩm ướt, tối đen như mực và cực kỳ nguy hiểm. Nơi sinh sống của hàng bầy thực thể.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-8/level8.jpg",
+        "phenomena": ["Tiếng nước nhỏ giọt vang vọng[cite: 6]", "Bóng tối đặc quánh nuốt chửng ánh sáng[cite: 6]", "Mạng nhện khổng lồ cản đường[cite: 6]"],
+        "items": ["Almond Water (lẫn trong vũng nước độc - rất nguy hiểm để uống)[cite: 6]"],
+        "entities": ["Smiler[cite: 6]", "Skin-Stealer[cite: 6]", "Wretch[cite: 6]", "Crawler[cite: 6]", "Deathmoth[cite: 6]", "Arachnid (Spiders)[cite: 6]"]
+    },
+    "8.1": {
+        "name": "The Glistening Caves",
+        "class": 1,
+        "desc": "Một nhánh phụ của Level 8 nhưng an toàn hơn nhiều. Các vách đá ở đây được bao phủ bởi một loại rêu phát quang sinh học màu xanh lam, cung cấp ánh sáng tự nhiên và làm dịu tinh thần.",
+        "image": "",
+        "phenomena": ["Ánh sáng tự nhiên từ rêu", "Cảm giác xoa dịu tinh thần"],
+        "items": ["Rêu phát sáng (Ăn được)", "Almond Water tinh khiết"],
+        "entities": []
+    },
+    "9": {
+        "name": "The Suburbs",
+        "class": 5,
+        "desc": "Khu ngoại ô ban đêm vô tận, sương mù dày đặc và các ngôi nhà giống hệt nhau. Cực kỳ tàn khốc.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-9/level9.jpg",
+        "phenomena": ["Sương mù che khuất tầm nhìn[cite: 6]", "Những ngôi nhà bị biến dạng bên trong[cite: 6]", "Cảm giác bị săn lùng gắt gao[cite: 6]"],
+        "items": ["Đồ hộp thực phẩm (tìm thấy trong các tủ bếp)[cite: 6]"],
+        "entities": ["Neighborhood Watch[cite: 6]", "Smiler[cite: 6]", "Wretch[cite: 6]", "Hound[cite: 6]"]
+    },
+    "9.1": {
+        "name": "The Crimson Forest",
+        "class": 1,
+        "desc": "Khu rừng lá đỏ rực rỡ dưới bầu trời đỏ sẫm. Rất an toàn, nơi The Crimson Field (Trại M.E.G.) hoạt động. Không có thực thể nguy hiểm.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-9-1/level9-1.jpg",
+        "phenomena": ["Lá đỏ tự động phát sáng nhẹ vào ban đêm[cite: 6]", "Hiệu ứng êm dịu, xoa dịu tâm lý[cite: 6]"],
+        "items": ["Gỗ đỏ[cite: 6]", "Crimson Water (Một dạng Almond Water)[cite: 6]", "Thùng tiếp tế M.E.G.[cite: 6]"],
+        "entities": ["Crimson Moth (Vô hại)[cite: 6]"]
+    },
+    "9.2": {
+        "name": "Isolated Suburbs",
+        "class": 4,
+        "desc": "Một phiên bản tàn khốc và tách biệt hơn của Level 9. Các ngôi nhà ngoại ô ở đây đổ nát nghiêm trọng, cửa sổ bị vỡ, và đường phố bị bao phủ bởi một lớp sương mù có tính axit nhẹ.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-9-2/level9-2.jpg",
+        "phenomena": ["Sương mù làm rát da và cay mắt[cite: 6]", "Đường phố tự động thay đổi cấu trúc khi khuất tầm nhìn[cite: 6]", "Những bóng đen đứng bất động trong các căn nhà hoang[cite: 6]"],
+        "items": ["Thực phẩm đóng hộp (đã hỏng hoặc nhiễm độc)[cite: 6]", "Đồ gia dụng vỡ nát[cite: 6]"],
+        "entities": ["Neighborhood Watch (Biến thể hung hãn)[cite: 6]", "Wretch[cite: 6]", "Smiler[cite: 6]"]
+    },
+    "10": {
+        "name": "The Field of Wheat",
+        "class": 1,
+        "desc": "Một cánh đồng lúa mì trải dài vô tận dưới bầu trời xám xịt. Tương đối an toàn nhưng dễ lạc.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-10/level10.jpg",
+        "phenomena": ["Gió thổi xào xạc qua lúa mì[cite: 6]", "Trời không bao giờ tối[cite: 6]", "Các tòa nhà bằng gạch xuất hiện ngẫu nhiên[cite: 6]"],
+        "items": ["Lúa mì (có thể ăn được)[cite: 6]", "Almond Water (hiếm)[cite: 6]"],
+        "entities": []
+    },
+    "10.1": {
+        "name": "The Barn",
+        "class": 1,
+        "desc": "Nằm giữa cánh đồng lúa mì của Level 10 là một nhà kho bằng gỗ có không gian bên trong trải dài vô tận. Mùi cỏ khô và gỗ thông xộc lên mũi.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-10-1/level10-1.jpg",
+        "phenomena": ["Bụi bay lơ lửng trong luồng ánh sáng hắt qua mái nhà[cite: 6]", "Tiếng gió lùa qua khe gỗ[cite: 6]", "Cấu trúc xà gồ rắc rối, giống một mê cung 3D[cite: 6]"],
+        "items": ["Nông cụ rỉ sét[cite: 6]", "Almond Water (ẩn trong các đống rơm rạ)[cite: 6]"],
+        "entities": ["Rats[cite: 6]", "Hound (rất hiếm, ẩn trong góc tối)[cite: 6]"]
+    },
+    "11": {
+        "name": "The City That Never Sleeps",
+        "class": 1,
+        "desc": "Một thành phố hiện đại vô tận. Rất an toàn, có các thực thể Faceling thân thiện hành xử như người dân.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-11/level11.jpg",
+        "phenomena": ["Đèn giao thông nhấp nháy ngẫu nhiên[cite: 6]", "Bầu trời luôn ở trạng thái ban ngày[cite: 6]", "Wi-Fi miễn phí hoạt động tốt[cite: 6]"],
+        "items": ["Đồ ăn đóng hộp[cite: 6]", "Almond Water[cite: 6]", "Nước tăng lực[cite: 6]", "Quần áo sạch[cite: 6]"],
+        "entities": ["Faceling (Trung lập)[cite: 6]", "Hound (Rất hiếm)[cite: 6]"]
+    },
+    "11.1": {
+        "name": "The Wastes",
+        "class": 2,
+        "desc": "Một vùng đất hoang vu cằn cỗi trải dài ra từ rìa của The City That Never Sleeps. Khu vực này đầy rẫy rác thải bê tông, phế liệu và các tàn tích đô thị chưa xây xong.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-11-1/level11-1.jpg",
+        "phenomena": ["Gió bụi cuốn theo các mảnh vỡ kim loại[cite: 6]", "Ánh sáng mặt trời gay gắt không bao giờ tắt[cite: 6]", "La bàn và thiết bị định vị quay cuồng không kiểm soát[cite: 6]"],
+        "items": ["Phế liệu kim loại[cite: 6]", "Almond Water (Nằm rải rác dưới đống đổ nát)[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Faceling (Thường đi lang thang vô định)[cite: 6]"]
+    },
+    "11.2": {
+        "name": "Blackout City",
+        "class": 4,
+        "desc": "Phiên bản của Level 11 nhưng chìm trong bóng tối hoàn toàn. Đèn đường đã tắt, các tòa nhà đổ nát và là sào huyệt của hàng ngàn thực thể thù địch.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-11-2/level11-2.jpg",
+        "phenomena": ["Bóng tối đặc quánh[cite: 6]", "Âm thanh gầm rú từ các con hẻm hẹp[cite: 6]", "Các tòa nhà thay đổi cấu trúc khi không có nguồn sáng[cite: 6]"],
+        "items": ["Pin (Rất cần thiết)[cite: 6]", "Đèn pin bỏ lại[cite: 6]", "Vũ khí tự vệ[cite: 6]"],
+        "entities": ["Smiler (Số lượng khổng lồ)[cite: 6]", "Hound[cite: 6]", "Skin-Stealer[cite: 6]", "Wretch[cite: 6]"]
+    },
+    "12": {
+        "name": "Matrix",
+        "class": 1,
+        "desc": "Một căn phòng trắng toát, không có thực thể, nơi mọi đồ vật đều bị 'kiểm duyệt' (censor).[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-12/level12.jpg",
+        "phenomena": ["Hiệu ứng nhiễu sóng che mờ đồ vật[cite: 6]", "Không gian trắng xóa vô tận[cite: 6]", "Bóng đen che khuất khuôn mặt[cite: 6]"],
+        "items": [],
+        "entities": []
+    },
+    "13": {
+        "name": "The Apartments",
+        "class": 2,
+        "desc": "Một khu chung cư khổng lồ với vô số tầng và hành lang. Các phòng chứa đồ đạc bình thường nhưng đôi khi thay đổi cấu trúc khi bạn không nhìn.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-13/level13.jpg",
+        "phenomena": ["Sóng Wi-Fi miễn phí hoạt động cực mạnh[cite: 6]", "Tivi tự bật các kênh nhiễu sóng[cite: 6]", "Thang máy có thể đưa bạn đến The Void (rất nguy hiểm)[cite: 6]"],
+        "items": ["Almond Water[cite: 6]", "Thức ăn trong tủ lạnh các căn hộ[cite: 6]", "Vật dụng sinh hoạt[cite: 6]"],
+        "entities": ["Window (Rất nhiều)[cite: 6]", "Smiler[cite: 6]", "Hound[cite: 6]", "Faceling[cite: 6]", "Skin-Stealer[cite: 6]"]
+    },
+    "14": {
+        "name": "Paradise (Bệnh viện tâm thần)",
+        "class": 4,
+        "desc": "Dù mang tên 'Thiên đường', đây là một khu phức hợp bệnh viện tâm thần/quân sự bị bỏ hoang, ẩm mốc và đe dọa.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-14/level14.jpg",
+        "phenomena": ["Tiếng hét điên dại vọng lại từ các buồng bệnh[cite: 6]", "Cảm giác tuyệt vọng tột độ (Mind-altering)[cite: 6]", "Giường bệnh tự xê dịch[cite: 6]"],
+        "items": ["Vật tư y tế hết hạn[cite: 6]", "Almond Water (đôi khi bị pha Liquid Pain)[cite: 6]"],
+        "entities": ["Wretch[cite: 6]", "Smiler[cite: 6]", "Hound[cite: 6]"]
+    },
+    "15": {
+        "name": "Futuristic Halls",
+        "class": 1,
+        "desc": "Những hành lang công nghệ cao, hiện đại với tường xám và máy móc chạy ro ro. Rất ít thực thể.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-15/level15.jpg",
+        "phenomena": ["Cửa bọc thép tự động mở/đóng[cite: 6]", "Tiếng động cơ (Engine) gầm rú từ xa[cite: 6]", "Ánh sáng LED đổi màu báo động[cite: 6]"],
+        "items": ["Tài liệu M.E.G. thất lạc[cite: 6]", "Thiết bị điện tử (laptop hết pin)[cite: 6]", "Memory Juice (rất hiếm)[cite: 6]"],
+        "entities": ["Smiler[cite: 6]", "Hound[cite: 6]", "Enigma[cite: 6]"]
+    },
+    "16": {
+        "name": "Altered Topography",
+        "class": 1,
+        "desc": "Khu rừng rậm và núi đá với địa hình thay đổi liên tục. Lực hấp dẫn bị bẻ cong.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-16/level16.jpg",
+        "phenomena": ["Nước chảy ngược lên trời[cite: 6]", "Cây cối biến mất khi quay lưng lại[cite: 6]", "Bầu trời đổi màu[cite: 6]"],
+        "items": ["Lá cây lạ[cite: 6]", "Almond Water[cite: 6]"],
+        "entities": []
+    },
+    "17": {
+        "name": "The Carrier",
+        "class": 1,
+        "desc": "Trông giống hệt một tàu sân bay hải quân trôi dạt trên một đại dương vô tận. Không có thực thể nguy hiểm nội địa.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-17/level17.jpg",
+        "phenomena": ["Gió biển thổi cực mạnh[cite: 6]", "Boong tàu trơn trượt[cite: 6]", "Mùi muối biển nồng nặc[cite: 6]"],
+        "items": ["Khẩu phần ăn của hải quân[cite: 6]", "Đèn pin[cite: 6]", "Royal Rations[cite: 6]"],
+        "entities": []
+    },
+    "18": {
+        "name": "Memories",
+        "class": 0,
+        "desc": "Trông giống như một nhà trẻ hoặc phòng ngủ thời thơ ấu. An toàn tuyệt đối, mang lại cảm giác hoài niệm mạnh mẽ.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-18/level18.jpg",
+        "phenomena": ["Ký ức tuổi thơ ùa về[cite: 6]", "Đồ chơi tự phát nhạc[cite: 6]", "Tiếng cười trẻ con thoảng qua (không nguy hiểm)[cite: 6]"],
+        "items": ["Thú nhồi bông (Khủng long Plushie)[cite: 6]", "Kẹo dẻo[cite: 6]"],
+        "entities": ["The Plush Dinosaur (Thực thể vô hại/Thân thiện)[cite: 6]"]
+    },
+    "19": {
+        "name": "The Attic",
+        "class": 1,
+        "desc": "Một căn gác xép bằng gỗ cũ kỹ trải dài vô tận. Phủ đầy bụi, chứa các hộp carton mục nát và dây thừng.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-19/level19.jpg",
+        "phenomena": ["Ván gỗ kêu cọt kẹt dưới chân[cite: 6]", "Cảm giác ngột ngạt vì bụi gỗ[cite: 6]"],
+        "items": ["Đồ cổ hỏng hóc[cite: 6]", "Almond Water (lẫn trong rương)[cite: 6]"],
+        "entities": ["Crawler (Rất hiếm)[cite: 6]"]
+    },
+    "20": {
+        "name": "Warehouse",
+        "class": 1,
+        "desc": "Một nhà kho thương mại trải dài bất tận, chứa hàng ngàn thùng hàng, pallet và máy móc. Đây là nơi M.E.G. đặt một trong những căn cứ lớn nhất.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-20/level20.jpg",
+        "phenomena": ["Mùi dầu máy và sương mù lơ lửng[cite: 6]", "Tiếng động cơ máy móc tự khởi động[cite: 6]", "Bóng đèn công nghiệp chớp nháy[cite: 6]"],
+        "items": ["Đồ tiếp tế của M.E.G.[cite: 6]", "Linh kiện cơ khí[cite: 6]", "Almond Water (nằm trong các thùng hàng)[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Faceling[cite: 6]", "Smiler (Rất hiếm)[cite: 6]"]
+    },
+    "21": {
+        "name": "Numbered Doors",
+        "class": 2,
+        "desc": "Một tập hợp các hành lang ngoằn ngoèo với hàng ngàn cánh cửa được đánh số ngẫu nhiên. Mở sai cửa có thể dẫn đến cái chết.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-21/level21.jpg",
+        "phenomena": ["Tiếng gõ cửa từ bên trong một số cánh cửa[cite: 6]", "Số trên cửa tự động thay đổi khi không nhìn[cite: 6]", "Không gian uốn cong[cite: 6]"],
+        "items": ["Chìa khóa rỉ sét[cite: 6]", "Vật phẩm rơi vãi từ người trước[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Smiler[cite: 6]", "Skin-Stealer[cite: 6]"]
+    },
+    "22": {
+        "name": "Ruins",
+        "class": 3,
+        "desc": "Một đống đổ nát ngầm khổng lồ trông giống như một bãi đỗ xe hoặc thành phố bị tàn phá. Đầy bụi và cực kỳ nguy hiểm.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-22/level22.jpg",
+        "phenomena": ["Gạch đá tự nhiên rơi từ trên trần nhà[cite: 6]", "Bão bụi làm giảm tầm nhìn xuống con số 0[cite: 6]", "Tiếng gầm rú từ dưới vực sâu[cite: 6]"],
+        "items": ["Phế liệu kim loại[cite: 6]", "Công cụ hỏng[cite: 6]"],
+        "entities": ["Wretch[cite: 6]", "Smiler[cite: 6]", "Hound[cite: 6]", "Crawler[cite: 6]"]
+    },
+    "23": {
+        "name": "The Petrified Garden",
+        "class": 3,
+        "desc": "Một khu rừng với những cấu trúc giống cây khổng lồ nhưng cấu tạo hoàn toàn bằng đá và khoáng chất xanh lá.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-23/level23.jpg",
+        "phenomena": ["Rễ đá dịch chuyển khi không nhìn[cite: 6]", "Bụi khoáng chất phát sáng trong bóng tối[cite: 6]"],
+        "items": ["Firesalt (Khai thác từ đá)[cite: 6]", "Almond Water[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Smiler[cite: 6]", "Crawler[cite: 6]"]
+    },
+    "24": {
+        "name": "The Moon",
+        "class": 5,
+        "desc": "Một phiên bản mô phỏng bề mặt Mặt Trăng làm bằng nhựa, có các khu vực mất trọng lực và thiếu oxy. Tỷ lệ tử vong cực cao.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-24/level24.jpg",
+        "phenomena": ["Mất oxy đột ngột[cite: 6]", "Khu vực phi trọng lực[cite: 6]", "Bầu trời là một bức màn đen bằng nhựa khổng lồ[cite: 6]"],
+        "items": [],
+        "entities": ["Camo Crawler[cite: 6]", "Smiler[cite: 6]", "Wretch (Số lượng rất lớn)[cite: 6]"]
+    },
+    "25": {
+        "name": "The Quarter Hub",
+        "class": 1,
+        "desc": "Một khu trò chơi điện tử (Arcade) và trung tâm thương mại an toàn. Rất nhiều nhóm của M.E.G. đặt tiền đồn ở đây.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-25/level25.jpg",
+        "phenomena": ["Máy chơi game tự động reset[cite: 6]", "Nhạc 8-bit phát xen lẫn tiếng ồn trắng[cite: 6]"],
+        "items": ["Xèng Arcade (Quarter)[cite: 6]", "Almond Water[cite: 6]", "Nước tăng lực[cite: 6]"],
+        "entities": ["Deathmoth (Chỉ quẩn quanh bóng đèn, không tấn công)[cite: 6]"]
+    },
+    "26": {
+        "name": "Otherworldly",
+        "class": 2,
+        "desc": "Một ngôi nhà hai tầng với thiết kế cổ điển nhưng có kiến trúc phi không gian (non-Euclidean geometry). Đồ nội thất lơ lửng, và cấu trúc ngôi nhà không tuân theo các định luật vật lý.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-26/level26.jpg",
+        "phenomena": ["Đồ đạc lơ lửng giữa không trung[cite: 6]", "Cửa sổ nhìn ra một vùng không gian vô định (The Void)[cite: 6]", "Lực hấp dẫn thay đổi ngẫu nhiên theo từng phòng[cite: 6]"],
+        "items": ["Almond Water (nằm rải rác nhưng khó lấy vì không trọng lực)[cite: 6]", "Vật dụng sinh hoạt gia đình[cite: 6]"],
+        "entities": ["Smiler (Núp ở góc tối)[cite: 6]", "Hound[cite: 6]"]
+    },
+    "27": {
+        "name": "The Woodrooms",
+        "class": 2,
+        "desc": "Một tổ hợp mê cung ngầm bằng gỗ, có phòng tắm hơi, sàn gạch men gỗ, suối nước khoáng ấm.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-27/level27.jpg",
+        "phenomena": ["Hơi nước bốc lên từ khe nứt[cite: 6]", "Mùi gỗ tuyết tùng xông vào mũi[cite: 6]"],
+        "items": ["Khăn tắm cũ[cite: 6]", "Nước khoáng (có thể uống)[cite: 6]"],
+        "entities": ["Faceling[cite: 6]", "Woodlin[cite: 6]"]
+    },
+    "28": {
+        "name": "Stormstone Keep",
+        "class": 3,
+        "desc": "Một lâu đài đá thời trung cổ khổng lồ và vô tận, bao quanh bởi những cơn bão dữ dội vĩnh cửu. Kiến trúc hoành tráng nhưng đổ nát.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-28/level28.jpg",
+        "phenomena": ["Sấm sét đánh liên tục bên ngoài cửa sổ[cite: 6]", "Nhiệt độ thay đổi đột ngột[cite: 6]", "Hành lang đá tự xoay chuyển[cite: 6]"],
+        "items": ["Almond Water[cite: 6]", "Giáp sắt/Vũ khí gỉ sét (có thể dùng để tự vệ)[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Smiler[cite: 6]", "Skin-Stealer[cite: 6]", "Faceling (Mặc giáp)[cite: 6]"]
+    },
+    "29": {
+        "name": "Hyperbolic",
+        "class": 3,
+        "desc": "Một tập hợp các hành lang gạch ngầm, có sự pha trộn giữa thiên nhiên và kiến trúc đô thị bị bỏ hoang. Không gian bị uốn cong theo nguyên lý hình học Hyperbol.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-29/level29.jpg",
+        "phenomena": ["Con đường uốn cong vô tận lên trên hoặc xuống dưới[cite: 6]", "Ảo giác về khoảng cách (càng đi gần lại càng thấy xa)[cite: 6]"],
+        "items": ["Thực vật biến đổi gen[cite: 6]", "Almond Water[cite: 6]"],
+        "entities": ["Wretch[cite: 6]", "Crawler[cite: 6]", "Camo Crawler[cite: 6]"]
+    },
+    "30": {
+        "name": "Shifted Reality",
+        "class": 2,
+        "desc": "Một khu phố ngoại ô vô tận nơi các định luật vật lý bị bẻ gãy. Các ngôi nhà lơ lửng lộn ngược, vặn xoắn và đâm xuyên vào nhau theo hình học phi tuyến tính (non-Euclidean).[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-30/level30.jpg",
+        "phenomena": ["Trọng lực thay đổi khi bước từ nhà này sang nhà khác[cite: 6]", "Đồ đạc lơ lửng giữa không trung[cite: 6]", "Chóng mặt tột độ khi cố gắng xác định phương hướng[cite: 6]"],
+        "items": ["Đồ gia dụng vỡ nát[cite: 6]", "Almond Water (lơ lửng)[cite: 6]"],
+        "entities": ["Smiler[cite: 6]", "Hound[cite: 6]"]
+    },
+    "31": {
+        "name": "Roller Rink",
+        "class": 1,
+        "desc": "Một sân trượt patin vô tận mang âm hưởng thập niên 80. Ánh đèn neon rực rỡ và nhạc synthwave phát liên tục.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-31/level31.jpg",
+        "phenomena": ["Sàn trượt patin tự thay đổi màu[cite: 6]", "Nhạc tự động tăng âm lượng vỡ vụn[cite: 6]"],
+        "items": ["Giày trượt patin[cite: 6]", "Nước tăng lực[cite: 6]", "Almond Water[cite: 6]"],
+        "entities": ["Faceling (Trượt patin, không thù địch)[cite: 6]"]
+    },
+    "32": {
+        "name": "The Skeletal Forest",
+        "class": 3,
+        "desc": "Một khu rừng tăm tối nơi thân cây, cành lá và mặt đất đều được cấu tạo từ xương khổng lồ. Mùi canxi và tủy xương bốc lên nồng nặc.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-32/level32.jpg",
+        "phenomena": ["Xương kêu răng rắc khi bước lên[cite: 6]", "Rễ xương tự động quấn lấy chân[cite: 6]", "Ảo giác về những bộ xương khô đang cử động[cite: 6]"],
+        "items": ["Liquid Pain (chứa trong các hốc xương)[cite: 6]"],
+        "entities": ["Smiler[cite: 6]", "Wretch[cite: 6]", "Skeleton (Thực thể đặc thù của Level)[cite: 6]"]
+    },
+    "33": {
+        "name": "The Infinite Mall",
+        "class": 2,
+        "desc": "Một trung tâm thương mại vô tận mang phong cách thập niên 90. Các gian hàng trống rỗng nhưng thỉnh thoảng đèn sáng và nhạc phát ra.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-33/level33.jpg",
+        "phenomena": ["Nhạc Muzak (nhạc nền siêu thị) phát lặp đi lặp lại[cite: 6]", "Ma-nơ-canh tự xê dịch vị trí[cite: 6]", "Cửa hàng tự khóa trái cửa[cite: 6]"],
+        "items": ["Đồ hộp tại Food Court[cite: 6]", "Quần áo mới[cite: 6]", "Đèn pin[cite: 6]", "Almond Water[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Skin-Stealer[cite: 6]", "Faceling[cite: 6]"]
+    },
+    "34": {
+        "name": "Sewer System",
+        "class": 4,
+        "desc": "Hệ thống cống rãnh ngầm tối tăm, ngột ngạt và bốc mùi. Nước cống chứa vi khuẩn biến đổi gen, dễ gây nhiễm trùng.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-34/level34.jpg",
+        "phenomena": ["Mùi hôi thối gây choáng váng[cite: 6]", "Nước dâng cao đột ngột[cite: 6]", "Tiếng nước chảy mạnh trong ống cống[cite: 6]"],
+        "items": [],
+        "entities": ["Smiler[cite: 6]", "Crawler[cite: 6]", "Wretch[cite: 6]", "Death Rat[cite: 6]"]
+    },
+    "35": {
+        "name": "An Empty Car Park",
+        "class": 1,
+        "desc": "Một bãi đậu xe ô tô nhiều tầng bằng bê tông. Bầu trời bên ngoài luôn là một màu xanh lá cây đục.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-35/level35.jpg",
+        "phenomena": ["Còi báo động ô tô tự kêu[cite: 6]", "Vệt bánh xe xuất hiện ngẫu nhiên[cite: 6]"],
+        "items": ["Linh kiện ô tô[cite: 6]", "Almond Water (bỏ quên trong cốp xe)[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Faceling[cite: 6]"]
+    },
+    "36": {
+        "name": "Airport",
+        "class": 2,
+        "desc": "Một nhà ga sân bay vô tận với các cửa an ninh, băng chuyền hành lý và khu vực chờ. Bầu trời bên ngoài cửa kính luôn là màu xám xịt.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-36/level36.jpg",
+        "phenomena": ["Loa phát thanh thông báo những chuyến bay không tồn tại[cite: 6]", "Hành lý vô chủ tự chạy trên băng chuyền[cite: 6]", "Ảo ảnh máy bay cất cánh vào cõi hư vô[cite: 6]"],
+        "items": ["Hành lý (có thể chứa đồ dùng ngẫu nhiên)[cite: 6]", "Đồ ăn vặt tại quầy[cite: 6]", "Almond Water[cite: 6]"],
+        "entities": ["Faceling (Mặc đồ Tiếp viên hàng không)[cite: 6]", "Hound (Hiếm)[cite: 6]"]
+    },
+    "37": {
+        "name": "Sublimity (Poolrooms)",
+        "class": 0,
+        "desc": "Khu phức hợp hồ bơi lát gạch men vô tận, nước ấm có khả năng chữa lành. Không có thực thể.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-37/level37.jpg",
+        "phenomena": ["Tiếng nước chảy róc rách[cite: 6]", "Cảm giác yên bình tột độ[cite: 6]", "Ánh sáng hắt xuống mặt nước[cite: 6]"],
+        "items": ["Nước hồ bơi (hồi phục tinh thần)[cite: 6]"],
+        "entities": []
+    },
+    "38": {
+        "name": "Folded Point",
+        "class": 1,
+        "desc": "Một không gian hình học phi tuyến tính, trông giống như một văn phòng bị gấp khúc và vặn xoắn. Đi bộ thẳng có thể khiến bạn lộn ngược.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-38/level38.jpg",
+        "phenomena": ["Trọng lực bẻ cong theo bức tường[cite: 6]", "Giao điểm không gian gây buồn nôn[cite: 6]"],
+        "items": ["Tài liệu ghi chép thất lạc[cite: 6]", "Almond Water[cite: 6]"],
+        "entities": []
+    },
+    "39": {
+        "name": "Enchanted Forest",
+        "class": 2,
+        "desc": "Một khu rừng bạch dương kỳ ảo với ánh sáng mờ ảo, lá cây rơi chậm. Bề ngoài an toàn nhưng gây ảo giác nhẹ.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-39/level39.jpg",
+        "phenomena": ["Hiệu ứng bóp méo không gian[cite: 6]", "Trọng lực thấp[cite: 6]", "Con đường mòn đột ngột biến mất[cite: 6]"],
+        "items": ["Lá bạch dương phát sáng[cite: 6]"],
+        "entities": ["Hound (Bị bạch hóa)[cite: 6]", "Woodlin[cite: 6]"]
+    },
+    "40": {
+        "name": "Roller Rockin' Pizza!",
+        "class": 0,
+        "desc": "Một tổ hợp nhà hàng pizza và khu vui chơi arcade. Âm nhạc luôn bật, an toàn tuyệt đối.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-40/level40.jpg",
+        "phenomena": ["Máy chơi game tự động phát sáng[cite: 6]", "Mùi pizza thơm lừng nướng sẵn[cite: 6]"],
+        "items": ["Pizza ăn được[cite: 6]", "Xèng chơi game (Arcade Tokens)[cite: 6]", "Nước ngọt (Almond Water vị soda)[cite: 6]"],
+        "entities": []
+    },
+    "41": {
+        "name": "The Blackwood Forest",
+        "class": 3,
+        "desc": "Một khu rừng tối tăm với những cái cây có thân màu đen đặc và không có lá. Cảm giác hoang tưởng và sợ hãi tăng vọt khi lữ khách tiến sâu vào bên trong khu rừng.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-41/level41.jpg",
+        "phenomena": ["Bóng tối có vẻ như hấp thụ ánh sáng từ đèn pin[cite: 6]", "Tiếng xào xạc của cành cây gãy mặc dù không có gió[cite: 6]", "Cảm giác luôn bị bám đuôi bởi một sinh vật vô hình[cite: 6]"],
+        "items": ["Cành cây đen (Rất cứng)[cite: 6]", "Almond Water (Ở các vũng nước nhỏ, cần lọc trước khi uống)[cite: 6]"],
+        "entities": ["Smiler[cite: 6]", "Skin-Stealer[cite: 6]", "Wretch[cite: 6]"]
+    },
+    "42": {
+        "name": "The Horizon",
+        "class": 0,
+        "desc": "Một bình nguyên xám nhạt vô tận nối liền với bầu trời mù sương. Chân trời kéo dài đến vô cực, không bao giờ thay đổi, không có bất kỳ thực thể nào.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-42/level42.jpg",
+        "phenomena": ["Cảm giác cô lập tuyệt đối[cite: 6]", "Ảo giác về một điểm đen ở đường chân trời không bao giờ đạt tới[cite: 6]"],
+        "items": [],
+        "entities": []
+    },
+    "43": {
+        "name": "Water World",
+        "class": 2,
+        "desc": "Khu vui chơi công viên nước ngập lụt vô tận trong nhà. Nước đọng ở khắp nơi và có các đường trượt nước bị bỏ hoang rêu phong.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-43/level43.jpg",
+        "phenomena": ["Tiếng nước nhỏ giọt không xác định được nguồn[cite: 6]", "Nhạc nền công viên giải trí phát rè rè từ loa hỏng[cite: 6]", "Mực nước có thể dâng lên hoặc rút xuống ngẫu nhiên[cite: 6]"],
+        "items": ["Chai nước rỗng[cite: 6]", "Tờ rơi quảng cáo công viên[cite: 6]", "Almond Water (nổi lềnh bềnh trên mặt nước)[cite: 6]"],
+        "entities": ["Deathmoth[cite: 6]", "Wretch[cite: 6]", "Hound (Sợ nước, chỉ xuất hiện ở khu vực khô)[cite: 6]"]
+    },
+    "44": {
+        "name": "Corroded Retail",
+        "class": 2,
+        "desc": "Một cửa hàng bán lẻ cũ nát, hoen gỉ và bị ăn mòn nghiêm trọng. Hầu hết các kệ hàng đều trống rỗng và dính đầy chất lỏng màu đen không rõ nguồn gốc.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-44/level44.jpg",
+        "phenomena": ["Mùi kim loại rỉ và nấm mốc nồng nặc[cite: 6]", "Chất lỏng đen (ăn mòn nhẹ) rỏ xuống từ trần nhà[cite: 6]", "Tiếng loa rè thông báo giảm giá ngẫu nhiên[cite: 6]"],
+        "items": ["Đồ hộp rỉ sét (không nên ăn)[cite: 6]", "Mảnh kim loại phế liệu[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Smiler[cite: 6]", "Skin-Stealer[cite: 6]"]
+    },
+    "45": {
+        "name": "Abyss Inc.",
+        "class": 2,
+        "desc": "Một tòa nhà văn phòng công ty hiện đại tối tăm, vắng lặng. Không gian tĩnh mịch mang lại cảm giác áp bức nặng nề nhưng ít thực thể thù địch.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-45/level45.jpg",
+        "phenomena": ["Máy tính ở các bàn làm việc thỉnh thoảng tự bật sáng[cite: 6]", "Tiếng gõ bàn phím ma quái vọng ra từ buồng trống[cite: 6]", "Thang máy hoạt động nhưng không dẫn đi đâu[cite: 6]"],
+        "items": ["Đồ dùng văn phòng[cite: 6]", "Cà phê đen (có thể uống được)[cite: 6]"],
+        "entities": ["Hound[cite: 6]", "Faceling (Mặc đồ công sở)[cite: 6]"]
+    },
+    "46": {
+        "name": "The Arabian Desert",
+        "class": 3,
+        "desc": "Một sa mạc cát mênh mông, nắng nóng khắc nghiệt. Nhiệt độ có thể lên tới 50°C vào ban ngày và giảm xuống dưới 0°C vào ban đêm.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-46/level46.jpg",
+        "phenomena": ["Bão cát che khuất tầm nhìn[cite: 6]", "Ảo ảnh ốc đảo (rất nguy hiểm)[cite: 6]", "Chênh lệch nhiệt độ ngày và đêm khắc nghiệt[cite: 6]"],
+        "items": ["Almond Water (rất hiếm, ẩn trong các tàn tích nhỏ)[cite: 6]", "Cát nung[cite: 6]"],
+        "entities": ["Desert Faceling (Thực thể đội khăn choàng sa mạc)[cite: 6]", "Hound[cite: 6]"]
+    },
+    "47": {
+        "name": "The Viper Forest",
+        "class": 3,
+        "desc": "Một khu rừng thông tăm tối, chìm trong sương mù dày đặc và không khí lạnh lẽo. Khu rừng này cực kỳ nguy hiểm do địa hình đầm lầy và các sinh vật mang nọc độc.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-47/level47.jpg",
+        "phenomena": ["Sương mù độc nhẹ gây ảo giác[cite: 6]", "Tiếng rít của các loài bò sát vọng lại từ tán cây[cite: 6]", "Đất sụt lún thành đầm lầy nếu đứng im quá lâu[cite: 6]"],
+        "items": ["Quả thông[cite: 6]", "Nấm phát sáng (có thể gây ngộ độc)[cite: 6]"],
+        "entities": ["Vipers (Rắn độc dị biến)[cite: 6]", "Hound[cite: 6]", "Skin-Stealer[cite: 6]"]
+    },
+    "48": {
+        "name": "The Sunset Beach",
+        "class": 0,
+        "desc": "Một bãi biển cát trắng trải dài vô tận, bầu trời luôn dừng lại ở khoảnh khắc hoàng hôn tuyệt đẹp. Nơi lý tưởng để nghỉ ngơi.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-48/level48.jpg",
+        "phenomena": ["Tiếng sóng vỗ rì rào êm ái[cite: 6]", "Cát luôn giữ ở nhiệt độ ấm áp[cite: 6]", "Mặt trời hoàng hôn không bao giờ lặn[cite: 6]"],
+        "items": ["Dừa (có thể uống nước bên trong)[cite: 6]", "Vỏ ốc[cite: 6]"],
+        "entities": []
+    },
+    "49": {
+        "name": "The Unfilled River of Phlegethon",
+        "class": 5,
+        "desc": "Một vùng chiến sự vô tận tương tự như chiến trường Thế chiến 1 với hệ thống chiến hào. Cơn mưa bão dữ dội có thể kéo dài làm ngập lụt các chiến hào, mọi thứ chỉ còn lại là bạo lực vô cớ.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-49/level49.jpg",
+        "phenomena": ["Mưa bão ngập lụt có thể kéo dài từ vài giờ đến cả ngày[cite: 6]", "Sương mù khó lường nán lại nhiều giờ hoặc nhiều ngày[cite: 6]", "Âm thanh tiếng súng không ngừng như một khúc hát ru ám ảnh[cite: 6]"],
+        "items": ["Bùn lầy[cite: 6]", "Trang bị quân sự hỏng[cite: 6]", "Almond Water (lẫn trong rương)[cite: 6]"],
+        "entities": ["Entity 49/1 (Trenchcleaners - cỗ máy chiến tranh hai chân tự động tuần tra các chiến hào, phát ra ánh sáng màu xanh lam neon)[cite: 6]"]
+    },
+    "50": {
+        "name": "The Moribund Highway",
+        "class": 2,
+        "desc": "Một đường cao tốc vắng vẻ đứt gãy chạy xuyên qua sa mạc cằn cỗi. Hàng ngàn chiếc ô tô rỉ sét bị bỏ hoang rải rác dọc đường.[cite: 6]",
+        "image": "http://backrooms-wiki.wdfiles.com/local--files/level-50/level50.jpg",
+        "phenomena": ["Bầu trời vĩnh viễn kẹt ở trạng thái hoàng hôn[cite: 6]", "Ảo ảnh nhiệt trên mặt đường vắng[cite: 6]", "Gió sa mạc rít qua các khe hở của cửa xe ô tô[cite: 6]"],
+        "items": ["Bình xăng (Gas can)[cite: 6]", "Phụ tùng ô tô[cite: 6]", "Almond Water (bị lãng quên trong cốp xe)[cite: 6]"],
+        "entities": ["Deathmoth[cite: 6]", "Hound[cite: 6]"]
+    }
+}

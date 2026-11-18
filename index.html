@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.E.G. Terminal - Accurate Wikidot Data</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        :root { --term-green: #33ff00; --term-bg: #051405; --term-red: #ff3333; --term-yellow: #ffaa00; --term-blue: #00ffff; --term-purple: #ff00ff; }
+        body { background-color: var(--term-bg); color: var(--term-green); font-family: 'VT323', monospace; margin: 0; padding: 20px; display: flex; justify-content: center; overflow-x: hidden; }
+        .crt::before { content: " "; display: block; position: fixed; top: 0; left: 0; bottom: 0; right: 0; background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)); z-index: 2; pointer-events: none; }
+        
+        .escape-panel { position: fixed; top: 10px; right: 10px; width: 250px; background: rgba(0, 20, 0, 0.9); border: 2px solid var(--term-purple); padding: 10px; z-index: 10; box-shadow: 0 0 10px var(--term-purple); }
+        .escape-title { color: var(--term-purple); margin: 0 0 5px 0; font-size: 16px; text-transform: uppercase; text-align: center; }
+        .escape-bar-bg { width: 100%; height: 15px; background: #111; border: 1px solid var(--term-purple); position: relative; }
+        .escape-bar-fill { height: 100%; background: var(--term-purple); width: 0%; transition: width 0.3s; }
+        .escape-text { font-size: 14px; text-align: center; margin-top: 5px; color: #fff; }
+
+        .main-wrapper { width: 100%; max-width: 900px; z-index: 1; margin-top: 40px; }
+        .container { border: 2px solid var(--term-green); padding: 20px; position: relative; box-shadow: 0 0 15px var(--term-green); background: rgba(0, 20, 0, 0.8); }
+        
+        h1, h2, h3 { text-align: center; text-transform: uppercase; border-bottom: 1px dashed currentcolor; padding-bottom: 10px; margin-top: 0; }
+        
+        .level-selector { display: flex; gap: 10px; align-items: center; margin: 20px 0; }
+        select, button { background: var(--term-bg); color: var(--term-green); border: 1px solid var(--term-green); font-family: inherit; font-size: 18px; padding: 8px 12px; outline: none; flex-grow: 1; cursor: pointer; }
+        select { appearance: none; }
+        button { text-transform: uppercase; font-weight: bold; transition: 0.2s; flex-grow: 0; }
+        button:hover:not(:disabled) { background: var(--term-green); color: var(--term-bg); }
+        button:disabled { border-color: #555; color: #555; cursor: not-allowed; }
+        
+        .level-info { margin: 20px 0; padding: 15px; border: 1px dotted var(--term-green); display: none; }
+        .level-img { width: 100%; height: 350px; object-fit: cover; border: 1px solid var(--term-green); margin-bottom: 10px; filter: grayscale(50%) sepia(50%) hue-rotate(70deg); }
+        
+        .prob-bar-container { width: 100%; height: 30px; display: flex; border: 1px solid var(--term-green); margin-top: 15px; background: #111; }
+        .prob-segment { height: 100%; display: flex; align-items: center; justify-content: center; color: #000; font-weight: bold; font-size: 16px; overflow: hidden; white-space: nowrap; transition: width 0.5s ease; }
+        .bg-phenom { background: var(--term-yellow); }
+        .bg-safe { background: var(--term-blue); }
+        .bg-entity { background: var(--term-red); }
+        
+        .roll-box { text-align: center; margin: 30px 0; padding: 20px; border: 1px solid rgba(51, 255, 0, 0.3); }
+        .roll-number { font-size: 72px; font-weight: bold; margin: 20px 0; min-height: 90px; }
+        .result { font-size: 20px; padding: 15px; border: 1px solid transparent; min-height: 60px; text-align: left; }
+        .danger { color: var(--term-red); border-color: var(--term-red); }
+        .safe { color: var(--term-blue); border-color: var(--term-blue); }
+        .escape-success { color: var(--term-purple); border-color: var(--term-purple); font-weight: bold; }
+        
+        #escapeBtn { display: none; margin-top: 15px; border-color: var(--term-red); color: var(--term-red); }
+        #escapeBtn:hover { background: var(--term-red); color: white; }
+        
+        /* Balo ở phía dưới */
+        .inventory-panel { border: 2px dashed var(--term-blue); padding: 20px; background: rgba(0, 40, 40, 0.3); color: var(--term-blue); margin-top: 20px; }
+        .inv-list { list-style: none; padding: 0; margin: 0; }
+        .inv-item { padding: 10px; border-bottom: 1px dashed rgba(0, 255, 255, 0.3); margin-bottom: 5px; }
+        .inv-count { font-weight: bold; color: #000; background: var(--term-blue); padding: 2px 6px; border-radius: 4px; float: right; }
+        .inv-desc { font-size: 14px; color: #aaa; display: block; margin-top: 5px; }
+    </style>
+</head>
+<body class="crt">
+
+    <div class="escape-panel">
+        <h4 class="escape-title">Cơ chế Lối Thoát</h4>
+        <div class="escape-bar-bg">
+            <div class="escape-bar-fill" id="escapeBarFill"></div>
+        </div>
+        <p class="escape-text" id="escapeText">Chưa kích hoạt (Cần 2 lượt Roll)</p>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="container">
+            <h1>M.E.G. Terminal: Wikidot Archives</h1>
+            <p id="dbStatus">> LOADING DATABASES...</p>
+            
+            <div class="level-selector">
+                <select id="levelSelect" disabled>
+                    <option value="" disabled selected>-- ĐANG TẢI DỮ LIỆU --</option>
+                </select>
+                <button onclick="loadLevel()" id="loadBtn" disabled>ACCESS</button>
+            </div>
+
+            <div class="level-info" id="levelInfo">
+                <img id="levelImg" class="level-img" src="" alt="Level Image" onerror="this.src='https://via.placeholder.com/800x400/000000/33ff00?text=[NO_SIGNAL]'">
+                <h2 id="levelName"></h2>
+                <p><strong>Survival Class:</strong> <span id="survivalClass"></span></p>
+                <p><strong>Description:</strong> <span id="levelDesc"></span></p>
+                
+                <p><strong>Xác suất Sự kiện Level:</strong></p>
+                <div class="prob-bar-container">
+                    <div id="barPhenom" class="prob-segment bg-phenom" title="Dị tượng"></div>
+                    <div id="barSafe" class="prob-segment bg-safe" title="An toàn / Vật phẩm"></div>
+                    <div id="barEntity" class="prob-segment bg-entity" title="Thực thể"></div>
+                </div>
+            </div>
+
+            <div class="roll-box">
+                <button onclick="startRoll()" id="rollBtn" disabled style="font-size: 24px; padding: 10px 30px;">INITIATE ROLL</button>
+                <div id="buffStatus" style="color: var(--term-yellow); margin-top: 10px; font-weight:bold;"></div>
+                <div class="roll-number" id="rollNumber">000</div>
+                <div class="result" id="resultText">> AWAITING INPUT...</div>
+                <button id="escapeBtn" onclick="triggerEscape()">CHẠY TRỐN!</button>
+            </div>
+
+            <!-- Balo đã được chuyển xuống đây -->
+            <div class="inventory-panel">
+                <h3 style="color: var(--term-blue); border-bottom-color: var(--term-blue);">Balo M.E.G. (Level Hiện Tại)</h3>
+                <p id="invEmpty">> Balo hiện đang trống. Sẽ bị reset khi chuyển khu vực.</p>
+                <ul class="inv-list" id="inventoryList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
